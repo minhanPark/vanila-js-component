@@ -1,0 +1,30 @@
+.container {
+  max-width: 900px;
+  width: 100%;
+  margin: 20px auto;
+  box-shadow: 1px 0 0 0 gray, 0 1px 0 0 gray, 2px 0 0 0 gray inset,
+    0 2px 0 0 gray inset;
+}
+
+.accordion--header {
+  border: 1px solid gray;
+  padding: 4px 8px;
+  margin: 0;
+  border-collapse: collapse;
+}
+
+.accordion--header.current + .accordion--body {
+  display: block;
+}
+
+.accordion--body {
+  margin: 0;
+  padding: 4px 8px;
+  background-color: gray;
+  color: white;
+  display: none;
+}
+
+.accordion--body h4 {
+  margin: 0;
+}
