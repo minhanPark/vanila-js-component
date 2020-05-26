@@ -1,18 +1,21 @@
+.container {
+  padding: 20px;
+}
+
+.star-rating-container {
+  width: 145px;
+  height: 40px;
+  background: url(img/blank_star.png) no-repeat;
+  display: inline-block;
+}
+
 .star-rating {
-  position: relative;
-  width: 200px;
-  height: 30px;
+  display: inline-block;
+  background: url(img/shiny_star.png) no-repeat;
+  width: 145px;
+  height: 40px;
 }
 
-.blank {
-  position: absolute;
+img {
   width: 100%;
-}
-
-.shiny {
-  position: absolute;
-  width: 100%;
-  z-index: 2;
-  left: 0;
-  top: 0;
 }
